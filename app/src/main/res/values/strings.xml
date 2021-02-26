@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">padhai karo</string>
+    <string name="A_prev">PREV</string>
+    <string name="A_next">NEXT</string>
+    <string name="V_next">NEXT</string>
+<!--    <string name="num_change"></string>-->
+</resources>

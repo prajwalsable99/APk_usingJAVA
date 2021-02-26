@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A09BEA"
+    tools:context=".EduMenuActivity">
+
+    <Button
+        android:id="@+id/buttonabcd"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:background="#7A0096"
+        android:onClick="goABCD"
+        android:text="A B C D"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/button1234"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button1234"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:background="#7A0096"
+        android:onClick="go1234"
+        android:text="1 2 3 4"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonfruits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonabcd" />
+
+    <Button
+        android:id="@+id/buttonfruits"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:background="#7A0096"
+        android:onClick="goFruits"
+        android:text="FRUITS"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonveggies"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1234" />
+
+    <Button
+        android:id="@+id/buttonveggies"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="216dp"
+        android:background="#7A0096"
+        android:onClick="goVeggies"
+        android:text="VEGETABLES"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:background="#FFEB3B"
+        android:text="CONTENT"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
